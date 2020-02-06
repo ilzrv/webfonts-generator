@@ -1,4 +1,4 @@
-# webfonts-generator
+# @ilzrv/webfonts-generator
 
 
 [![Build Status](https://travis-ci.org/sunflowerdeath/webfonts-generator.svg?branch=master)](https://travis-ci.org/sunflowerdeath/webfonts-generator)
@@ -14,7 +14,7 @@ Features:
 ## Install
 
 ```
-npm install --save-dev webfonts-generator
+npm install --save-dev @ilzrv/webfonts-generator
 ```
 
 ## Usage
