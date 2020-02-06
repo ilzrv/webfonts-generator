@@ -1,7 +1,7 @@
 {
-  "name": "webfonts-generator",
-  "version": "0.4.0",
-  "description": "Generator of webfonts from svg icons",
+  "name": "@ilzrv/webfonts-generator",
+  "version": "0.5.0",
+  "description": "Generator of WebFonts from svg icons",
   "main": "src/index.js",
   "directories": {
     "test": "tests"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sunflowerdeath/webfonts-generator.git"
+    "url": "git+https://github.com/ilzrv/webfonts-generator.git"
   },
   "keywords": [
     "font",
@@ -21,27 +21,23 @@
     "woff",
     "woff2"
   ],
-  "author": "sunflowerdeath",
-  "license": "Unlicense",
-  "bugs": {
-    "url": "https://github.com/sunflowerdeath/webfonts-generator/issues"
-  },
+  "license": "MIT",
   "dependencies": {
-    "handlebars": "^4.0.5",
-    "mkdirp": "^0.5.0",
-    "q": "^1.1.2",
-    "svg2ttf": "^4.0.0",
+    "handlebars": "^4.7.3",
+    "mkdirp": "^1.0.3",
+    "q": "^1.5.1",
+    "svg2ttf": "^4.3.0",
     "svgicons2svgfont": "^5.0.0",
     "ttf2eot": "^2.0.0",
     "ttf2woff": "^2.0.1",
-    "ttf2woff2": "^2.0.3",
-    "underscore": "^1.7.0",
-    "url-join": "^1.1.0"
+    "ttf2woff2": "^3.0.0",
+    "underscore": "^1.9.2",
+    "url-join": "^4.0.1"
   },
   "devDependencies": {
     "file-type": "^3.9.0",
-    "mocha": "^3.1.2",
-    "node-sass": "^3.4.2",
-    "read-chunk": "^2.0.0"
+    "mocha": "^7.0.1",
+    "node-sass": "^4.13.1",
+    "read-chunk": "^3.2.0"
   }
 }
