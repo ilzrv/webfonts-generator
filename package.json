@@ -1,6 +1,6 @@
 {
   "name": "@ilzrv/webfonts-generator",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Generator of WebFonts from svg icons",
   "main": "src/index.js",
   "directories": {
