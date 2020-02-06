@@ -20,7 +20,7 @@ npm install --save-dev @ilzrv/webfonts-generator
 ## Usage
 
 ```js
-const webfontsGenerator = require('webfonts-generator');
+const webfontsGenerator = require('@ilzrv/webfonts-generator');
 
 webfontsGenerator({
   files: [
